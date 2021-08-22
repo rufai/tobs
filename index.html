@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigeria States</title>
+    <style>
+        button, input {
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    Nigerian States
+    <button id="one" class="two" >Random</button>
+    <button id="fresh" class="two" name="baba">Fresh</button>
+    <button id="good" class="two" >Good</button>
+    <button id="watch" class="two" >Watch</button>
+    <button id="tv" class="two" >TV</button>
+    <button class="two" >Random</button>
+
+    <form>
+        <input id="txt" type="text" placeholder="Type something here" />
+        <input type="password" placeholder="Type your password" />
+        <input type="checkbox" placeholder="Type something here" />
+        <input type="radio" placeholder="Type something here" />
+        <input type="range" placeholder="Type something here" />
+        <input type="color" placeholder="Type something here" />
+        <input type="date" placeholder="Type something here" />
+        <input type="datetime-local" placeholder="Type something here" />
+        <input type="month" placeholder="Type something here" />
+        <input type="week" placeholder="Type something here" />
+        <input type="search" placeholder="Type something here" />
+        <input type="tel" placeholder="Type something here" />
+        <input type="email" placeholder="Type something here" />
+
+    </form>
+</body>
+<script src="./ngstates.data.js"></script>
+<script src="./states.js"></script>
+<script>
+    // let buttonElement = document.getElementById("one")
+    let buttonElement = document.getElementsByTagName("button")
+    console.log(buttonElement)
+    let counter = 0;
+    buttonElement[2].addEventListener("click", (arg) => {
+        // console.log(counter++)
+        // console.log(arg)
+        
+    })
+
+    let txtElement = document.getElementById("txt")
+    // console.log(txtElement)
+    // txtElement.addEventListener("change", (e) => {
+    //     console.log(e)
+    // })
+</script>
+</html>
