@@ -1,0 +1,7 @@
+Screens
+
+1) home page ( list all the notes that we have)
+
+2) create page ( we have  )
+
+3) edit page 
